@@ -10,10 +10,10 @@ from datetime import datetime
 from backend.redis_client import add_key_value_redis, delete_key_redis, get_value_redis
 from integrations.integration_item import IntegrationItem
 
-CLIENT_ID = 'pat-na2-7658ae34-a96a-4c7e-b8ee-5b66c55987ba'
-CLIENT_SECRET = 'bcaec9c1-9c49-48e4-9f67-2f1c6d775d47'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 REDIRECT_URI = 'http://localhost:8000/integrations/hubspot/oauth2callback'
-SCOPES = 'crm.objects.contacts.read', 'crm.schemas.contacts.read'
+SCOPES = ''
 AUTH_BASE = 'https://app.hubspot.com/oauth/authorize'
 TOKEN_URL = 'https://api.hubapi.com/oauth/v1/token'
 
