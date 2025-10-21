@@ -10,10 +10,9 @@ from datetime import datetime
 from backend.redis_client import add_key_value_redis, delete_key_redis, get_value_redis
 from integrations.integration_item import IntegrationItem
 
-CLIENT_ID = ''
-CLIENT_SECRET = ''
+
+# To test add CLIENT_ID, CLIENT_SECRET, REDIRECT_URI, SCOPES
 REDIRECT_URI = 'http://localhost:8000/integrations/hubspot/oauth2callback'
-SCOPES = ''
 AUTH_BASE = 'https://app.hubspot.com/oauth/authorize'
 TOKEN_URL = 'https://api.hubapi.com/oauth/v1/token'
 
